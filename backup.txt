@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <title>Galeria de Vídeos | Rica Games - Gameplays, Tutoriais e Entretenimento</title>
+
+  <meta name="description" content="Confira a galeria de vídeos do Rica Games com os melhores gameplays, tutoriais, lives e vídeos de entretenimento gamer. Assista agora gratuitamente!">
+  <meta name="keywords" content="rica games, galeria de vídeos, vídeos de games, tutoriais gamer, vídeos de gameplay, entretenimento gamer, vídeos de jogos">
+  <meta name="robots" content="index, follow" />
+  <meta name="author" content="Rica Games" />
+
+  <link rel="canonical" href="https://www.seusite.com.br/galeria-de-videos" />
+  <meta property="og:title" content="Galeria de Vídeos | Rica Games" />
+  <meta property="og:description" content="Assista aos melhores vídeos do Rica Games: tutoriais, gameplays e mais." />
+  <meta property="og:image" content="https://www.seusite.com.br/imagens/capa.jpg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.seusite.com.br/galeria-de-videos" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Galeria de Vídeos | Rica Games" />
+  <meta name="twitter:description" content="Explore vídeos incríveis do Rica Games com tutoriais e muito mais." />
+  <meta name="twitter:image" content="https://www.seusite.com.br/imagens/capa.jpg" />
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #f1f1f1;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      color: #ffffff;
+      text-align: center;
+    }
+
+    #video {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 1100px;
+      margin-bottom: 20px;
+    }
+
+    iframe {
+      width: 100%;
+      height: 250px;
+      border: none;
+      border-radius: 8px;
+      background: #000;
+    }
+
+    .anuncio {
+      background: #1e1e1e;
+      border: 1px solid #333;
+      border-radius: 8px;
+      padding: 10px;
+      box-shadow: 0 2px 6px rgba(255, 255, 255, 0.05);
+    }
+
+    button#btn {
+      background-color: #1e88e5;
+      border: none;
+      color: white;
+      padding: 12px 25px;
+      font-size: 16px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      user-select: none;
+    }
+
+    button#btn:disabled {
+      background-color: #666;
+      cursor: not-allowed;
+    }
+
+    button#btn:hover:not(:disabled) {
+      background-color: #1565c0;
+    }
+
+    a.conferir {
+      display: inline-block;
+      margin-top: 10px;
+      background-color: #1565c0;
+      color: white !important;
+      padding: 8px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Confira os Melhores Vídeos do Rica Games</h1>
+  </header>
+
+  <main>
+    <section id="video" aria-label="Galeria de vídeos do Rica Games">
+      <!-- Vídeos inseridos dinamicamente via JavaScript -->
+    </section>
+
+    <button id="btn" aria-label="Carregar mais vídeos">Carregar mais vídeos</button>
+  </main>
+
+  <footer style="margin-top: 40px; text-align: center; font-size: 14px; color: #aaa;">
+    &copy;  Rica Games. Todos os direitos reservados.
+  </footer>
+
+  <script src="videos.js" defer></script>
+
+</body>
+</html>
