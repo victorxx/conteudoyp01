@@ -17,11 +17,11 @@
   <meta property="og:description" content="Assista aos melhores vídeos do Rica Games: tutoriais, gameplays e mais." />
   <meta property="og:image" content="https://www.seusite.com.br/imagens/capa.jpg" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.seusite.com.br/galeria-de-videos" />
+
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Galeria de Vídeos | Rica Games" />
   <meta name="twitter:description" content="Explore vídeos incríveis do Rica Games com tutoriais e muito mais." />
-  <meta name="twitter:image" content="https://www.seusite.com.br/imagens/capa.jpg" />
+
 
   <style>
     body {
